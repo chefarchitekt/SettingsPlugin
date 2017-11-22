@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Settings", "..\src\Plugin.Settings\Plugin.Settings.csproj", "{747706F4-ECBF-4D50-8D72-B0DDCC18395C}"
 EndProject
@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\nuget\Plugin.nuspec = ..\nuget\Plugin.nuspec
 		..\README.md = ..\README.md
 		..\nuget\readme.txt = ..\nuget\readme.txt
+		runtests.sh = runtests.sh
+		Touch.Server.exe = Touch.Server.exe
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Settings.Tests.Portable", "Plugin.Settings.Tests.Portable\Plugin.Settings.Tests.Portable.csproj", "{2961BEC8-6E97-4943-AF17-491E25309619}"
@@ -773,6 +775,9 @@ Global
 		{2961BEC8-6E97-4943-AF17-491E25309619} = {6B56CF03-9506-46A9-BF28-FEBDA3776AA5}
 		{159A55AF-9531-4107-8444-CA9C96107EF5} = {6B56CF03-9506-46A9-BF28-FEBDA3776AA5}
 		{C2FE861E-33BF-4C3E-998D-FB1EB85E930E} = {6B56CF03-9506-46A9-BF28-FEBDA3776AA5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD227B07-BDF0-43CF-9CCB-074F7DE1438F}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Refractored.Xam.Settings\Refractored.Xam.Settings.csproj
