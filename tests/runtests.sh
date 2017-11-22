@@ -2,7 +2,7 @@
 
 echo $OutputPath
 
-mono Touch.Server.exe --debug \
+mono --debug Touch.Server.exe \
 --launchsim $OutputPath/RefractoredXamSettingsNUnitTestiOSUnified.app \
 -autoexit -skipheader  \
 -logfile=$OutputPath/test_results.xml \
