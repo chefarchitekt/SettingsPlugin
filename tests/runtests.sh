@@ -1,9 +1,9 @@
 #!/bin/sh
 
-echo $OutputPath
+echo 'Output path = ' $1
 
 mono --debug Touch.Server.exe \
---launchsim $0/RefractoredXamSettingsNUnitTestiOSUnified.app \
+--launchsim $1/RefractoredXamSettingsNUnitTestiOSUnified.app \
 -autoexit -skipheader  \
--logfile=$0/test_results.xml \
+-logfile=$1/test_results.xml \
 --device=":v2:runtime=com.apple.CoreSimulator.SimRuntime.iOS-11-1,devicetype=com.apple.CoreSimulator.SimDeviceType.iPhone-SE"
