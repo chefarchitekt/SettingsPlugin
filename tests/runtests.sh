@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo '## Xcode version information'
+xcodebuild -version
+
 echo 'Output path = ' $1
 
 mono --debug Touch.Server.exe \
